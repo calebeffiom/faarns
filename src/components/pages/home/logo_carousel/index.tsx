@@ -59,7 +59,7 @@ const Logos = () => {
                 <img
                   src={src}
                   alt=""
-                  className="h-[50px] w-auto max-w-[200px] object-contain"
+                  className="h-[50px] w-auto max-w-[200px] object-contain max-sm:max-w-[100px]"
                 />
               </div>
             ))}
