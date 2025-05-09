@@ -1,7 +1,7 @@
 import { BiBulb } from "react-icons/bi";
 const Navbar = () =>{
     return(
-        <nav className="text-[#fff] shadow-[inset_0px_2.7573306560516357px_7.352881908416748px_0px_rgba(244,30,255,1.00)] bg-black fixed bottom-[2em] px-6 py-4 rounded-3xl left-[50%] -translate-x-[50%] z-50 bg-[red] w-[50%] mx-[auto]">
+        <nav className="text-[#fff] shadow-sm bg-black fixed bottom-[2em] px-6 py-4 rounded-3xl left-[50%] -translate-x-[50%] z-50 bg-[red] w-[50%] mx-[auto]">
                 <ul className="flex w-[100%] justify-evenly items-center">
                   <li className="font-medium">Services</li>
                   <li className="font-medium">Case Studies</li>
