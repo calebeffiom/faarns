@@ -4,8 +4,8 @@ import { HomePage } from "@home"
 export default function Home() {
    return (
     <LandingLayout
-    showFooter={true}
-    showNav={true}
+    showFooter={false}
+    showNav={false}
     >
       <HomePage/>
     </LandingLayout>
