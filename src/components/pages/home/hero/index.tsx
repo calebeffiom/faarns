@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import gsap from "gsap";
+import Logos from "../logo_carousel";
 const Hero = () => {
     const [line, setLine] = useState(90)
     const box = useRef<HTMLDivElement>(null)
@@ -106,6 +107,7 @@ const Hero = () => {
                     <div ref={image} className="image"><img src="/img/image5.png" alt="" /></div>
                 </div>
             </section>
+            <Logos/>
         </div>
     )
 }
